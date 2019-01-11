@@ -43,7 +43,7 @@ def main():
     if not args.diff_url.endswith(".diff"):
         args.diff_url += ".diff"
 
-    print args.diff_url
+    print(args.diff_url)
 
     #changelog_diff, log_message = get_changelog_diff(args.diff_url)
     #if changelog_diff is None:
